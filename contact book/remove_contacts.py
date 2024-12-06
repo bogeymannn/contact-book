@@ -7,7 +7,7 @@ def remove_contact(contacts):
     for contact in contacts:
         if contact['name'].lower() == name:
             contacts.remove(contact)
-            save_to_file(contacts)  # save_contacts-এর বদলে save_to_file
+            save_to_file(contacts) 
             print(f"Contact '{name}' removed successfully!")
             found = True
             break
